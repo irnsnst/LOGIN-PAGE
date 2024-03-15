@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-image: url('/assets/pix/4.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container div {
+    margin-top: 20px; /* Add spacing between heading and content */
+}
+
+.container p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.container p span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container p:hover span {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Style for password and confirm password */
+.container #password,
+.container #confirmPassword {
+    display: inline-block;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container #password:hover,
+.container #confirmPassword:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
